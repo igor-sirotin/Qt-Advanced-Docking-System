@@ -123,7 +123,7 @@ class CDockManager : ads::CDockContainerWidget
 {
     
     %TypeHeaderCode
-    #include <DockManager.h>
+    #include <ads/DockManager.h>
     %End
 
 protected:

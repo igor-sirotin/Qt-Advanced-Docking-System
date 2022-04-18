@@ -9,7 +9,7 @@ class CFloatingDragPreview : QWidget, ads::IFloatingWidget
 {
 
     %TypeHeaderCode
-    #include <FloatingDragPreview.h>
+    #include <ads/FloatingDragPreview.h>
     %End
 
 protected:

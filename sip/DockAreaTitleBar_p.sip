@@ -8,7 +8,7 @@ namespace ads
 class CTitleBarButton : QToolButton
 {
     %TypeHeaderCode
-    #include <DockAreaTitleBar_p.h>
+    #include <ads/DockAreaTitleBar_p.h>
     %End
 
 protected:
@@ -23,7 +23,7 @@ public:
 class CSpacerWidget : QWidget
 {
     %TypeHeaderCode
-    #include <DockAreaTitleBar_p.h>
+    #include <ads/DockAreaTitleBar_p.h>
     %End
 
 public:

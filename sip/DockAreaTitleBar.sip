@@ -8,7 +8,7 @@ namespace ads
 class CDockAreaTitleBar : QFrame
 {
     %TypeHeaderCode
-    #include <DockAreaTitleBar.h>
+    #include <ads/DockAreaTitleBar.h>
     %End
 
 protected:

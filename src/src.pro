@@ -30,49 +30,51 @@ windows {
 RESOURCES += ads.qrc
 
 HEADERS += \
-    ads_globals.h \
-    DockAreaWidget.h \
-    DockAreaTabBar.h \
-    DockContainerWidget.h \
-    DockManager.h \
-    DockWidget.h \
-    DockWidgetTab.h \ 
-    DockingStateReader.h \
-    FloatingDockContainer.h \
-    FloatingDragPreview.h \
-    DockOverlay.h \
-    DockSplitter.h \
-    DockAreaTitleBar_p.h \
-    DockAreaTitleBar.h \
-    ElidingLabel.h \
-    IconProvider.h \
-    DockComponentsFactory.h  \
-    DockFocusController.h
+    include/ads/ads_globals.h \
+    include/ads/DockAreaWidget.h \
+    include/ads/DockAreaTabBar.h \
+    include/ads/DockContainerWidget.h \
+    include/ads/DockManager.h \
+    include/ads/DockWidget.h \
+    include/ads/DockWidgetTab.h \
+    include/ads/DockingStateReader.h \
+    include/ads/FloatingDockContainer.h \
+    include/ads/FloatingDragPreview.h \
+    include/ads/DockOverlay.h \
+    include/ads/DockSplitter.h \
+    include/ads/DockAreaTitleBar.h \
+    include/ads/ElidingLabel.h \
+    include/ads/IconProvider.h \
+    include/ads/DockComponentsFactory.h  \
+    include/ads/DockFocusController.h \
+    src/DockAreaTitleBar_p.h
 
 
 SOURCES += \
-    ads_globals.cpp \
-    DockAreaWidget.cpp \
-    DockAreaTabBar.cpp \
-    DockContainerWidget.cpp \
-    DockManager.cpp \
-    DockWidget.cpp \
-    DockingStateReader.cpp \
-    DockWidgetTab.cpp \
-    FloatingDockContainer.cpp \
-    FloatingDragPreview.cpp \
-    DockOverlay.cpp \
-    DockSplitter.cpp \
-    DockAreaTitleBar.cpp \
-    ElidingLabel.cpp \
-    IconProvider.cpp \
-    DockComponentsFactory.cpp \
-    DockFocusController.cpp
+    src/ads_globals.cpp \
+    src/DockAreaWidget.cpp \
+    src/DockAreaTabBar.cpp \
+    src/DockContainerWidget.cpp \
+    src/DockManager.cpp \
+    src/DockWidget.cpp \
+    src/DockingStateReader.cpp \
+    src/DockWidgetTab.cpp \
+    src/FloatingDockContainer.cpp \
+    src/FloatingDragPreview.cpp \
+    src/DockOverlay.cpp \
+    src/DockSplitter.cpp \
+    src/DockAreaTitleBar.cpp \
+    src/ElidingLabel.cpp \
+    src/IconProvider.cpp \
+    src/DockComponentsFactory.cpp \
+    src/DockFocusController.cpp \
 
+INCLUDEPATH = include
+DEPENDPATH = include
 
 unix:!macx {
-HEADERS += linux/FloatingWidgetTitleBar.h
-SOURCES += linux/FloatingWidgetTitleBar.cpp
+HEADERS += include/ads/linux/FloatingWidgetTitleBar.h
+SOURCES += src/linux/FloatingWidgetTitleBar.cpp
 LIBS += -lxcb
 QT += gui-private
 }

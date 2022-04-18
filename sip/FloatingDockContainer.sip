@@ -18,7 +18,7 @@ namespace ads
 class IFloatingWidget
 {
     %TypeHeaderCode
-    #include <FloatingDockContainer.h>
+    #include <ads/FloatingDockContainer.h>
     %End
 
 public:
@@ -35,7 +35,7 @@ class CFloatingDockContainer : tFloatingWidgetBase, ads::IFloatingWidget
 {
     
     %TypeHeaderCode
-    #include <FloatingDockContainer.h>
+    #include <ads/FloatingDockContainer.h>
     %End
     
 protected:

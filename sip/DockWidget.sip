@@ -8,7 +8,7 @@ namespace ads
 class CDockWidget : QFrame
 {
     %TypeHeaderCode
-    #include <DockWidget.h>
+    #include <ads/DockWidget.h>
     %End
     
 protected:

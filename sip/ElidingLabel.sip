@@ -8,7 +8,7 @@ namespace ads
 class CElidingLabel : QLabel
 {
     %TypeHeaderCode
-    #include <ElidingLabel.h>
+    #include <ads/ElidingLabel.h>
     %End
     
 protected:

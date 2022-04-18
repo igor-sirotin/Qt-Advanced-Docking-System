@@ -9,7 +9,7 @@ class CDockAreaWidget : QFrame
 {
 
     %TypeHeaderCode
-    #include <DockAreaWidget.h>
+    #include <ads/DockAreaWidget.h>
     %End
     
 protected:

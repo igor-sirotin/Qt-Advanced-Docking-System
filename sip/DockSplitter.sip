@@ -8,7 +8,7 @@ namespace ads
 class CDockSplitter : QSplitter
 {
     %TypeHeaderCode
-    #include <DockSplitter.h>
+    #include <ads/DockSplitter.h>
     %End
 
 public:

@@ -39,5 +39,5 @@ RESOURCES += demo.qrc
 LIBS += -L$${ADS_OUT_ROOT}/lib
 
 
-INCLUDEPATH += ../src
-DEPENDPATH += ../src
+INCLUDEPATH += ../src/include
+DEPENDPATH += ../src/include

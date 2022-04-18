@@ -10,50 +10,46 @@ if(BUILD_STATIC)
     set(CMAKE_STATIC_LIBRARY_SUFFIX "_static${CMAKE_STATIC_LIBRARY_SUFFIX}")
 endif()
 set(ads_SRCS
-    ads_globals.cpp
-    DockAreaTabBar.cpp
-    DockAreaTitleBar.cpp
-    DockAreaWidget.cpp
-    DockContainerWidget.cpp
-    DockManager.cpp
-    DockOverlay.cpp
-    DockSplitter.cpp
-    DockWidget.cpp
-    DockWidgetTab.cpp
-    DockingStateReader.cpp
-    DockFocusController.cpp
-    ElidingLabel.cpp
-    FloatingDockContainer.cpp
-    FloatingDragPreview.cpp
-    IconProvider.cpp
-    DockComponentsFactory.cpp
+    src/ads_globals.cpp
+    src/DockAreaTabBar.cpp
+    src/DockAreaTitleBar.cpp
+    src/DockAreaWidget.cpp
+    src/DockContainerWidget.cpp
+    src/DockManager.cpp
+    src/DockOverlay.cpp
+    src/DockSplitter.cpp
+    src/DockWidget.cpp
+    src/DockWidgetTab.cpp
+    src/DockingStateReader.cpp
+    src/DockFocusController.cpp
+    src/ElidingLabel.cpp
+    src/FloatingDockContainer.cpp
+    src/FloatingDragPreview.cpp
+    src/IconProvider.cpp
+    src/DockComponentsFactory.cpp
     ads.qrc
 )
 set(ads_HEADERS
-    ads_globals.h
-    DockAreaTabBar.h
-    DockAreaTitleBar.h
-    DockAreaTitleBar_p.h
-    DockAreaWidget.h
-    DockContainerWidget.h
-    DockManager.h
-    DockOverlay.h
-    DockSplitter.h
-    DockWidget.h
-    DockWidgetTab.h
-    DockingStateReader.h
-    DockFocusController.h
-    ElidingLabel.h
-    FloatingDockContainer.h
-    FloatingDragPreview.h
-    IconProvider.h
-    DockComponentsFactory.h
+    include/ads/ads_globals.h
+    include/ads/DockAreaTabBar.h
+    include/ads/DockAreaTitleBar.h
+    include/ads/DockAreaWidget.h
+    include/ads/DockContainerWidget.h
+    include/ads/DockManager.h
+    include/ads/DockOverlay.h
+    include/ads/DockSplitter.h
+    include/ads/DockWidget.h
+    include/ads/DockWidgetTab.h
+    include/ads/DockingStateReader.h
+    include/ads/DockFocusController.h
+    include/ads/ElidingLabel.h
+    include/ads/FloatingDockContainer.h
+    include/ads/FloatingDragPreview.h
+    include/ads/IconProvider.h
+    include/ads/DockComponentsFactory.h
+    src/DockAreaTitleBar_p.h
 )
 add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/utf-8>")
-if (UNIX AND NOT APPLE)
-    set(ads_SRCS linux/FloatingWidgetTitleBar.cpp ${ads_SRCS})
-    set(ads_HEADERS linux/FloatingWidgetTitleBar.h ${ads_HEADERS})
-endif()
 if(BUILD_STATIC)
     add_library(qtadvanceddocking STATIC ${ads_SRCS} ${ads_HEADERS})
     target_compile_definitions(qtadvanceddocking PUBLIC ADS_STATIC)
@@ -61,6 +57,15 @@ else()
     add_library(qtadvanceddocking SHARED ${ads_SRCS} ${ads_HEADERS})
     target_compile_definitions(qtadvanceddocking PRIVATE ADS_SHARED_EXPORT)
 endif()
+
+if (UNIX AND NOT APPLE)
+    target_source(qtadvanceddocking
+            PUBLIC
+            include/ads/linux/FloatingWidgetTitleBar.h
+            PRIVATE
+            src/linux/FloatingWidgetTitleBar.cpp
+            )
+endif ()
 
 add_library(ads::qtadvanceddocking ALIAS qtadvanceddocking)
 
@@ -85,7 +90,7 @@ write_basic_package_version_file(
     VERSION ${VERSION_SHORT}
     COMPATIBILITY SameMajorVersion
 )
-install(FILES ${ads_HEADERS}
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/
     DESTINATION include
     COMPONENT headers
 )
@@ -114,5 +119,5 @@ install(FILES qtadvanceddockingConfig.cmake "${CMAKE_CURRENT_BINARY_DIR}/qtadvan
 
 target_include_directories(qtadvanceddocking PUBLIC
     $<INSTALL_INTERFACE:include>
-    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 )

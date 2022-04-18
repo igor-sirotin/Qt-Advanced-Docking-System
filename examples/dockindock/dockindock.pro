@@ -30,6 +30,6 @@ HEADERS += \
 
 LIBS += -L$${ADS_OUT_ROOT}/lib
 include(../../ads.pri)
-INCLUDEPATH += ../../src
-DEPENDPATH += ../../src    
+INCLUDEPATH += ../../src/include
+DEPENDPATH += ../../src/include
 
