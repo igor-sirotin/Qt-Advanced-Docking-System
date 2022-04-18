@@ -15,7 +15,7 @@ namespace ads
 class CDockContainerWidget : QFrame
 {
     %TypeHeaderCode
-    #include <DockContainerWidget.h>
+    #include <ads/DockContainerWidget.h>
     %End
 
 protected:

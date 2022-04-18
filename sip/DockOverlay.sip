@@ -8,7 +8,7 @@ namespace ads
 class CDockOverlay : public QFrame
 {
     %TypeHeaderCode
-    #include <DockOverlay.h>
+    #include <ads/DockOverlay.h>
     %End
 
 public:

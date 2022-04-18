@@ -5,9 +5,9 @@
 #include <QComboBox>
 #include <QWidgetAction>
 
-#include "DockManager.h"
-#include "DockAreaWidget.h"
-#include "DockWidget.h"
+#include "ads/DockManager.h"
+#include "ads/DockAreaWidget.h"
+#include "ads/DockWidget.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class CMainWindow; }

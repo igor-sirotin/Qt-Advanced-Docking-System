@@ -7,7 +7,7 @@ class CDockingStateReader : QXmlStreamReader
 {
 
     %TypeHeaderCode
-    #include <DockingStateReader.h>
+    #include <ads/DockingStateReader.h>
     %End
 
 

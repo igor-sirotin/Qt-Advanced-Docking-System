@@ -39,7 +39,7 @@ PyObject *qtads_FindParent(PyObject* type, const QWidget *w)
 namespace ads
 {
     %TypeHeaderCode
-    #include <ads_globals.h>
+    #include <ads/ads_globals.h>
     %End
 
     enum DockWidgetArea
@@ -97,7 +97,7 @@ namespace ads
         class CDockInsertParam
         {
             %TypeHeaderCode
-            #include <ads_globals.h>
+            #include <ads/ads_globals.h>
             %End
             
         public:
