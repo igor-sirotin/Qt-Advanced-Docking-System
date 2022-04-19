@@ -32,8 +32,8 @@
 //============================================================================
 #include <QFrame>
 
-#include "ads/ads_globals.h"
-#include "ads/DockWidget.h"
+#include <ads/ads_globals.h>
+#include <ads/DockWidget.h>
 
 QT_FORWARD_DECLARE_CLASS(QXmlStreamWriter)
 QT_FORWARD_DECLARE_CLASS(QAbstractButton)

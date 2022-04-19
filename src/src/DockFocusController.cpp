@@ -8,7 +8,7 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/DockFocusController.h"
+#include <ads/DockFocusController.h>
 
 #include <algorithm>
 #include <iostream>
@@ -18,13 +18,13 @@
 #include <QAbstractButton>
 #include <QWindow>
 
-#include "ads/DockWidget.h"
-#include "ads/DockAreaWidget.h"
-#include "ads/DockWidgetTab.h"
-#include "ads/DockContainerWidget.h"
-#include "ads/FloatingDockContainer.h"
-#include "ads/DockManager.h"
-#include "ads/DockAreaTitleBar.h"
+#include <ads/DockWidget.h>
+#include <ads/DockAreaWidget.h>
+#include <ads/DockWidgetTab.h>
+#include <ads/DockContainerWidget.h>
+#include <ads/FloatingDockContainer.h>
+#include <ads/DockManager.h>
+#include <ads/DockAreaTitleBar.h>
 
 #ifdef Q_OS_LINUX
 #include "linux/FloatingWidgetTitleBar.h"

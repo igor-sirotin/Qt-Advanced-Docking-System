@@ -27,8 +27,8 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/FloatingDragPreview.h"
-#include "ads/DockAreaTabBar.h"
+#include <ads/FloatingDragPreview.h>
+#include <ads/DockAreaTabBar.h>
 
 #include <QMouseEvent>
 #include <QScrollBar>
@@ -37,12 +37,12 @@
 #include <QApplication>
 #include <QtGlobal>
 
-#include "ads/FloatingDockContainer.h"
-#include "ads/DockAreaWidget.h"
-#include "ads/DockOverlay.h"
-#include "ads/DockManager.h"
-#include "ads/DockWidget.h"
-#include "ads/DockWidgetTab.h"
+#include <ads/FloatingDockContainer.h>
+#include <ads/DockAreaWidget.h>
+#include <ads/DockOverlay.h>
+#include <ads/DockManager.h>
+#include <ads/DockWidget.h>
+#include <ads/DockWidgetTab.h>
 
 #include <iostream>
 

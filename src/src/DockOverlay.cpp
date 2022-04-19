@@ -20,7 +20,7 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/DockOverlay.h"
+#include <ads/DockOverlay.h>
 
 #include <QPointer>
 #include <QPaintEvent>
@@ -36,8 +36,8 @@
 #include <QMap>
 #include <QWindow>
 
-#include "ads/DockAreaWidget.h"
-#include "ads/DockAreaTitleBar.h"
+#include <ads/DockAreaWidget.h>
+#include <ads/DockAreaTitleBar.h>
 
 #include <iostream>
 

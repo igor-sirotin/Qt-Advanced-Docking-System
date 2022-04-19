@@ -11,7 +11,7 @@
 //                                   INCLUDES
 //============================================================================
 #include <QWidget>
-#include "ads/FloatingDockContainer.h"
+#include <ads/FloatingDockContainer.h>
 
 namespace ads
 {

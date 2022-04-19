@@ -11,8 +11,8 @@
 //                                   INCLUDES
 //============================================================================
 #include <QObject>
-#include "ads/ads_globals.h"
-#include "ads/DockManager.h"
+#include <ads/ads_globals.h>
+#include <ads/DockManager.h>
 
 namespace ads
 {

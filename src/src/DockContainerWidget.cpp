@@ -28,7 +28,7 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/DockContainerWidget.h"
+#include <ads/DockContainerWidget.h>
 
 #include <QEvent>
 #include <QList>
@@ -39,14 +39,14 @@
 #include <QXmlStreamWriter>
 #include <QAbstractButton>
 
-#include "ads/DockManager.h"
-#include "ads/DockAreaWidget.h"
-#include "ads/DockWidget.h"
-#include "ads/DockingStateReader.h"
-#include "ads/FloatingDockContainer.h"
-#include "ads/DockOverlay.h"
-#include "ads/ads_globals.h"
-#include "ads/DockSplitter.h"
+#include <ads/DockManager.h>
+#include <ads/DockAreaWidget.h>
+#include <ads/DockWidget.h>
+#include <ads/DockingStateReader.h>
+#include <ads/FloatingDockContainer.h>
+#include <ads/DockOverlay.h>
+#include <ads/ads_globals.h>
+#include <ads/DockSplitter.h>
 
 #include <functional>
 #include <iostream>

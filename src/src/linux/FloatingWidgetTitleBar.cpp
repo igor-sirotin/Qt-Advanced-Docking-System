@@ -37,9 +37,9 @@
 #include <QStyle>
 #include <QMouseEvent>
 
-#include "ads/ads_globals.h"
-#include "ads/ElidingLabel.h"
-#include "ads/FloatingDockContainer.h"
+#include <ads/ads_globals.h>
+#include <ads/ElidingLabel.h>
+#include <ads/FloatingDockContainer.h>
 
 namespace ads
 {

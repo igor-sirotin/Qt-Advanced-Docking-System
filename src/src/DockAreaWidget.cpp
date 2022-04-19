@@ -28,7 +28,7 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/DockAreaWidget.h"
+#include <ads/DockAreaWidget.h>
 
 #include <QStackedLayout>
 #include <QScrollBar>
@@ -44,16 +44,16 @@
 #include <QList>
 
 
-#include "ads/DockContainerWidget.h"
-#include "ads/DockWidget.h"
-#include "ads/FloatingDockContainer.h"
-#include "ads/DockManager.h"
-#include "ads/DockOverlay.h"
-#include "ads/DockAreaTabBar.h"
-#include "ads/DockSplitter.h"
-#include "ads/DockAreaTitleBar.h"
-#include "ads/DockComponentsFactory.h"
-#include "ads/DockWidgetTab.h"
+#include <ads/DockContainerWidget.h>
+#include <ads/DockWidget.h>
+#include <ads/FloatingDockContainer.h>
+#include <ads/DockManager.h>
+#include <ads/DockOverlay.h>
+#include <ads/DockAreaTabBar.h>
+#include <ads/DockSplitter.h>
+#include <ads/DockAreaTitleBar.h>
+#include <ads/DockComponentsFactory.h>
+#include <ads/DockWidgetTab.h>
 
 
 namespace ads

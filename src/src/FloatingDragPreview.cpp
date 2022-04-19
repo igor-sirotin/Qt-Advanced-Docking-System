@@ -8,7 +8,7 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/FloatingDragPreview.h"
+#include <ads/FloatingDragPreview.h>
 #include <iostream>
 
 #include <QEvent>
@@ -16,11 +16,11 @@
 #include <QPainter>
 #include <QKeyEvent>
 
-#include "ads/DockWidget.h"
-#include "ads/DockAreaWidget.h"
-#include "ads/DockManager.h"
-#include "ads/DockContainerWidget.h"
-#include "ads/DockOverlay.h"
+#include <ads/DockWidget.h>
+#include <ads/DockAreaWidget.h>
+#include <ads/DockManager.h>
+#include <ads/DockContainerWidget.h>
+#include <ads/DockOverlay.h>
 
 namespace ads
 {

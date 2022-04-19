@@ -29,6 +29,7 @@ set(ads_SRCS
     src/DockComponentsFactory.cpp
     ads.qrc
 )
+
 set(ads_HEADERS
     include/ads/ads_globals.h
     include/ads/DockAreaTabBar.h

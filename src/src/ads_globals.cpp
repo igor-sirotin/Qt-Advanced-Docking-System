@@ -33,10 +33,10 @@
 #include <QAbstractButton>
 #include <QStyle>
 
-#include "ads/DockSplitter.h"
-#include "ads/DockManager.h"
-#include "ads/IconProvider.h"
-#include "ads/ads_globals.h"
+#include <ads/DockSplitter.h>
+#include <ads/DockManager.h>
+#include <ads/IconProvider.h>
+#include <ads/ads_globals.h>
 
 #ifdef Q_OS_LINUX
 #include <QSettings>

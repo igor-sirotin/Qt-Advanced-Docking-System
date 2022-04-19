@@ -30,7 +30,7 @@
 //                                   INCLUDES
 //============================================================================
 #include <QScrollArea>
-#include "ads/ads_globals.h"
+#include <ads/ads_globals.h>
 
 namespace ads
 {

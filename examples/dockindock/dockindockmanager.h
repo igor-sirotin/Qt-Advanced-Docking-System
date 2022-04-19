@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ads/DockManager.h"
+#include <ads/DockManager.h>
 
 #include <QAction>
 #include <QMap>

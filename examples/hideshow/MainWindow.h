@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <QStackedLayout>
-#include "ads/DockManager.h"
+#include <ads/DockManager.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

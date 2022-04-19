@@ -71,14 +71,14 @@
 #include <QMap>
 #include <QElapsedTimer>
 
-#include "ads/DockManager.h"
-#include "ads/DockWidget.h"
-#include "ads/DockAreaWidget.h"
-#include "ads/DockAreaTitleBar.h"
-#include "ads/DockAreaTabBar.h"
-#include "ads/FloatingDockContainer.h"
-#include "ads/DockComponentsFactory.h"
-#include "ads/DockSplitter.h"
+#include <ads/DockManager.h>
+#include <ads/DockWidget.h>
+#include <ads/DockAreaWidget.h>
+#include <ads/DockAreaTitleBar.h>
+#include <ads/DockAreaTabBar.h>
+#include <ads/FloatingDockContainer.h>
+#include <ads/DockComponentsFactory.h>
+#include <ads/DockSplitter.h>
 
 #include "StatusDialog.h"
 

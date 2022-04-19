@@ -27,7 +27,7 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/DockAreaTitleBar.h"
+#include <ads/DockAreaTitleBar.h>
 
 #include <QPushButton>
 #include <QToolButton>
@@ -40,18 +40,18 @@
 #include <QPointer>
 
 #include "DockAreaTitleBar_p.h"
-#include "ads/ads_globals.h"
-#include "ads/FloatingDockContainer.h"
-#include "ads/FloatingDragPreview.h"
-#include "ads/DockAreaWidget.h"
-#include "ads/DockOverlay.h"
-#include "ads/DockManager.h"
-#include "ads/DockWidget.h"
-#include "ads/DockWidgetTab.h"
-#include "ads/DockAreaTabBar.h"
-#include "ads/IconProvider.h"
-#include "ads/DockComponentsFactory.h"
-#include "ads/DockFocusController.h"
+#include <ads/ads_globals.h>
+#include <ads/FloatingDockContainer.h>
+#include <ads/FloatingDragPreview.h>
+#include <ads/DockAreaWidget.h>
+#include <ads/DockOverlay.h>
+#include <ads/DockManager.h>
+#include <ads/DockWidget.h>
+#include <ads/DockWidgetTab.h>
+#include <ads/DockAreaTabBar.h>
+#include <ads/IconProvider.h>
+#include <ads/DockComponentsFactory.h>
+#include <ads/DockFocusController.h>
 
 #include <iostream>
 

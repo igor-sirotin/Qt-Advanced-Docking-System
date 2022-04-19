@@ -28,8 +28,8 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/DockWidgetTab.h"
-#include "ads/DockWidget.h"
+#include <ads/DockWidgetTab.h>
+#include <ads/DockWidget.h>
 
 #include <iostream>
 
@@ -50,13 +50,13 @@
 #include <QScreen>
 #include <QWindow>
 
-#include "ads/DockContainerWidget.h"
-#include "ads/DockAreaWidget.h"
-#include "ads/DockManager.h"
-#include "ads/FloatingDockContainer.h"
-#include "ads/DockSplitter.h"
-#include "ads/DockComponentsFactory.h"
-#include "ads/ads_globals.h"
+#include <ads/DockContainerWidget.h>
+#include <ads/DockAreaWidget.h>
+#include <ads/DockManager.h>
+#include <ads/FloatingDockContainer.h>
+#include <ads/DockSplitter.h>
+#include <ads/DockComponentsFactory.h>
+#include <ads/ads_globals.h>
 
 
 namespace ads

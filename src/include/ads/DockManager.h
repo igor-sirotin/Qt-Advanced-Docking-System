@@ -30,10 +30,10 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/ads_globals.h"
-#include "ads/DockContainerWidget.h"
-#include "ads/DockWidget.h"
-#include "ads/FloatingDockContainer.h"
+#include <ads/ads_globals.h>
+#include <ads/DockContainerWidget.h>
+#include <ads/DockWidget.h>
+#include <ads/FloatingDockContainer.h>
 
 
 QT_FORWARD_DECLARE_CLASS(QSettings)

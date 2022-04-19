@@ -8,7 +8,7 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/IconProvider.h"
+#include <ads/IconProvider.h>
 #include <QVector>
 
 namespace ads

@@ -3,7 +3,7 @@
 #include <QTextEdit>
 #include <QApplication>
 #include <QMenuBar>
-#include "ads/DockManager.h"
+#include <ads/DockManager.h>
 
 
 class MainWindow : public QMainWindow

@@ -26,7 +26,7 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/FloatingDockContainer.h"
+#include <ads/FloatingDockContainer.h>
 
 #include <iostream>
 
@@ -40,11 +40,11 @@
 #include <QElapsedTimer>
 #include <QTime>
 
-#include "ads/DockContainerWidget.h"
-#include "ads/DockAreaWidget.h"
-#include "ads/DockManager.h"
-#include "ads/DockWidget.h"
-#include "ads/DockOverlay.h"
+#include <ads/DockContainerWidget.h>
+#include <ads/DockAreaWidget.h>
+#include <ads/DockManager.h>
+#include <ads/DockWidget.h>
+#include <ads/DockOverlay.h>
 
 #ifdef Q_OS_WIN
 #include <windows.h>

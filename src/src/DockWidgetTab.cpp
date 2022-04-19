@@ -28,9 +28,9 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/FloatingDragPreview.h"
-#include "ads/ElidingLabel.h"
-#include "ads/DockWidgetTab.h"
+#include <ads/FloatingDragPreview.h>
+#include <ads/ElidingLabel.h>
+#include <ads/DockWidgetTab.h>
 
 #include <QBoxLayout>
 #include <QLabel>
@@ -43,14 +43,14 @@
 #include <QPushButton>
 #include <QMenu>
 
-#include "ads/ads_globals.h"
-#include "ads/DockWidget.h"
-#include "ads/DockAreaWidget.h"
-#include "ads/FloatingDockContainer.h"
-#include "ads/DockOverlay.h"
-#include "ads/DockManager.h"
-#include "ads/IconProvider.h"
-#include "ads/DockFocusController.h"
+#include <ads/ads_globals.h>
+#include <ads/DockWidget.h>
+#include <ads/DockAreaWidget.h>
+#include <ads/FloatingDockContainer.h>
+#include <ads/DockOverlay.h>
+#include <ads/DockManager.h>
+#include <ads/IconProvider.h>
+#include <ads/DockFocusController.h>
 
 
 namespace ads

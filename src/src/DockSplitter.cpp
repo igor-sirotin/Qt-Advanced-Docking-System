@@ -27,13 +27,13 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/DockSplitter.h"
+#include <ads/DockSplitter.h>
 
 #include <QDebug>
 #include <QChildEvent>
 #include <QVariant>
 
-#include "ads/DockAreaWidget.h"
+#include <ads/DockAreaWidget.h>
 
 namespace ads
 {

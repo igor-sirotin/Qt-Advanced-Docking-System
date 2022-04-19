@@ -1,7 +1,7 @@
 #include "dockindockmanager.h"
 #include "dockindock.h"
 
-#include "ads/DockAreaWidget.h"
+#include <ads/DockAreaWidget.h>
 
 #include <QMenu>
 #include <QInputDialog>

@@ -12,8 +12,8 @@
 
 #include <iostream>
 
-#include "ads/DockManager.h"
-#include "ads/DockWidget.h"
+#include <ads/DockManager.h>
+#include <ads/DockWidget.h>
 #include "ui_StatusDialog.h"
 
 /**

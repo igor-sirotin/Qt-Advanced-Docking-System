@@ -33,7 +33,7 @@
 #include <QFrame>
 #include <QSize>
 
-#include "ads/ads_globals.h"
+#include <ads/ads_globals.h>
 
 namespace ads
 {

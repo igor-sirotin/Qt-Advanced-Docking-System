@@ -28,8 +28,8 @@
 //============================================================================
 //                                   INCLUDES
 //============================================================================
-#include "ads/DockWidgetTab.h"
-#include "ads/DockManager.h"
+#include <ads/DockWidgetTab.h>
+#include <ads/DockManager.h>
 
 #include <algorithm>
 #include <iostream>
@@ -46,16 +46,16 @@
 #include <QMenu>
 #include <QApplication>
 
-#include "ads/FloatingDockContainer.h"
-#include "ads/DockOverlay.h"
-#include "ads/DockWidget.h"
-#include "ads/ads_globals.h"
-#include "ads/DockAreaWidget.h"
-#include "ads/IconProvider.h"
-#include "ads/DockingStateReader.h"
-#include "ads/DockAreaTitleBar.h"
-#include "ads/DockFocusController.h"
-#include "ads/DockSplitter.h"
+#include <ads/FloatingDockContainer.h>
+#include <ads/DockOverlay.h>
+#include <ads/DockWidget.h>
+#include <ads/ads_globals.h>
+#include <ads/DockAreaWidget.h>
+#include <ads/IconProvider.h>
+#include <ads/DockingStateReader.h>
+#include <ads/DockAreaTitleBar.h>
+#include <ads/DockFocusController.h>
+#include <ads/DockSplitter.h>
 
 #ifdef Q_OS_LINUX
 #include "linux/FloatingWidgetTitleBar.h"

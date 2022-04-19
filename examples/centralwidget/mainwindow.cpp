@@ -18,11 +18,11 @@
 #include <QPlainTextEdit>
 #include <QToolBar>
 
-#include "ads/DockAreaWidget.h"
-#include "ads/DockAreaTitleBar.h"
-#include "ads/DockAreaTabBar.h"
-#include "ads/FloatingDockContainer.h"
-#include "ads/DockComponentsFactory.h"
+#include <ads/DockAreaWidget.h>
+#include <ads/DockAreaTitleBar.h>
+#include <ads/DockAreaTabBar.h>
+#include <ads/FloatingDockContainer.h>
+#include <ads/DockComponentsFactory.h>
 
 using namespace ads;
 

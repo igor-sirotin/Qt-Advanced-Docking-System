@@ -27,7 +27,7 @@
 #include <QRect>
 #include <QFrame>
 
-#include "ads/ads_globals.h"
+#include <ads/ads_globals.h>
 
 QT_FORWARD_DECLARE_CLASS(QGridLayout)
 
